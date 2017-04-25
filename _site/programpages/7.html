@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>7.Write a program for registration page using PHP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>7.Write a program for registration page using PHP</h1>
+<a href="../index.html">Back</a>
+
+<p>Here is the following code for html save the file as .html</p>
+
+<xmp> 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<h1 align="center">Registration Form</h1>
+	<form action="../php/register.php" method="post">
+		<table align="center">
+			<tr>
+				<td>User Name:</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+
+			<tr>
+				<td>Password:</td>
+				<td><input type="Password" name="Password"></td>
+			</tr>
+
+			<tr>
+				<td>E-mail:</td>
+				<td><input type="email" name="email"></td>
+			</tr>
+
+			<tr>
+				<td>Gender:</td>
+				<td>
+					<input type="radio" value="Male">Male
+					<input type="radio" value="Female">Female
+				</td>
+			</tr>
+
+			<tr>
+				<td>Mobile No:</td>
+				<td><input type="text" name="number"></td>
+			</tr>
+
+			<tr>
+				<td>Address:</td>
+				<td><textarea rows="4" cols="22"></textarea></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><input type="submit" value="SUBMIT"/>
+					<input type="reset"  value="RESET"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+</xmp>
+
+<p>Here is the following code for php save the file as .php</p>
+<xmp>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<?php
+		echo "you have been Registered";
+	?>
+</body>
+</html>
+</xmp>
+</br>
+
+<p>Want to check the output click the output option or click the back option to go to home page </p>
+
+
+<a href="../programs/7.registration-php.html" target="_blank" >Output</a>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>6.Write a program for OnClick or OnSubmit</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>6.Write a program for OnClick or OnSubmit</h1>
+<a href="../index.html">Back</a>
+
+<p>Here is the following code for html save the file as .html</p>
+
+<p>OnClick Code</p>
+<xmp> 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Onclick</title>
+	<script>
+		function form()
+		{
+			alert("you have clicked the ClickMe! button");
+		}
+	</script>
+</head>
+<body>
+	<form onclick="form()" action="post">
+		<p>Please click the Click me! Button</p>
+		<input type="button" value="Click Me!">
+	</form>
+</body>
+</html>
+</xmp>
+<p>Output for OnClick</p>
+<a href="../programs/6a.onclick.html" target="_blank" >Output</a>
+
+</br>
+
+<p>OnSubmit Code</p>
+<xmp>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Onclick</title>
+	<script>
+		function form()
+		{
+			alert("Your Name has been submitted Successfully");
+		}
+	</script>
+</head>
+<body>
+	<form onsubmit="form()" action="onsubmit.html">
+		<p>Please Enter your Name and click the SUBMIT Button</p>
+		Name:<input type="text">
+		<input type="submit" value="Click Me!">
+	</form>
+</body>
+</html>
+</xmp>
+
+</br>
+<p>Output of OnSubmit</p>
+
+
+<a href="../programs/6b.onsubmit.html" target="_blank" >Output</a>
+
+</body>
+</html>
